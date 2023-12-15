@@ -241,7 +241,51 @@ li a:active {
   max-width: 1000ch;
 }
 
-/*accordian sectoion*/
+/*table section---------------------------*/
+.tables {
+  margin-top: 36px;
+  padding-bottom: 64px;
+  border-bottom: 1px solid #ee6c4d;
+}
+.tables_title {
+  margin-bottom: 60px;
+}
+.tables svg {
+  fill: none;
+  stroke: #ee6c4d;
+  width: 20px;
+  margin-right: 16px;
+}
+table {
+  width: 800px;
+  border: 1px solid #ee6c4d;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+thead {
+  background-color: #ee6c4d;
+  color: #fff;
+  width: 25%;
+}
+table th {
+  text-align: left;
+  padding: 12px;
+  text-transform: uppercase;
+}
+table td {
+  text-align: left;
+  padding: 12px;
+  font-size: 14px;
+}
+tbody tr:nth-child(even) {
+  background-color: #d9dbdeab;
+}
+tbody td:nth-child(5) {
+  color: #ffa534;
+  font-size: 18px;
+}
+
+/*accordian sectoion------------------------------*/
 .accordian_container {
   padding-top: 64px;
   display: flex;
