@@ -62,7 +62,6 @@ a:active {
   background-color: #d9dbde;
   border-radius: 0;
   border-radius: 4px;
-  /* box-shadow: h-offset v-offset blur spread color;*/
   box-shadow: 0px 3px 5px 0px rgba(250, 249, 249, 0.384);
 }
 /*...........................................................*/
@@ -90,7 +89,7 @@ SVG {
       rgba(164, 25, 25, 0.227),
       rgba(232, 188, 10, 0.185)
     ),
-    url("./images/hero_banner_img.jpg");
+    url("../images/hero_banner_img.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
