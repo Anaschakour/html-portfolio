@@ -90,7 +90,7 @@ SVG {
       rgba(164, 25, 25, 0.227),
       rgba(232, 188, 10, 0.185)
     ),
-    url("/images/hero_banner_img.jpg");
+    url("images/hero_banner_img.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
